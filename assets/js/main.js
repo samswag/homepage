@@ -68,37 +68,6 @@ Table of Content
         });
     }
 
-    /* -----------------------------------
-         Testimonials
-    -----------------------------------*/
-    function testimonials() {
-        $(".testimonials .owl-carousel").owlCarousel({
-            loop: true,
-            stagePadding: 5,
-            margin: 10,
-            nav: false,
-            autoplay: false,
-            center: false,
-            dots: true,
-            mouseDrag: true,
-            touchDrag: true,
-            smartSpeed: 1000,
-            autoplayHoverPause: false,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                },
-                600: {
-                    items: 1,
-                },
-                1200: {
-                    margin: 40,
-                    items: 2,
-                },
-            }
-        });
-    }
     
     /* -----------------------------------
 	      All functions
@@ -115,7 +84,6 @@ Table of Content
         "use strict";
         shareMedia();
         menu();
-        testimonials();
         magnificPopup();
     });
 
