@@ -697,6 +697,9 @@ ul {
   flex-basis: auto;
   margin-right: 50px;
 }
+@media (min-width:320px)  { 
+
+ }
 
 .main-menu .menu .menu-nav {
   margin: -2px auto 0 auto;
@@ -1162,7 +1165,8 @@ ul {
             align-items: center;
   }
   .header-left .main-menu .menu-nav .nav-link {
-    padding: 15px 0;
+    padding: 15px 0px;
+    margin-left: 12px;
     line-height: 1.5;
   }
   .header-left .main-menu .menu-nav .nav-link.active:after, .header-left .main-menu .menu-nav .nav-link:hover:after {
@@ -1177,7 +1181,11 @@ ul {
   .menu-toggle {
     display: block;
   }
+  .fab{
+    margin-left: 42px;
+  }
 }
+
 
 @media screen and (max-width: 567px) {
   h1 {
