@@ -695,6 +695,7 @@ ul {
   display: flex !important;
   -ms-flex-preferred-size: auto;
   flex-basis: auto;
+  margin-right: 50px;
 }
 
 .main-menu .menu .menu-nav {
