@@ -697,9 +697,6 @@ ul {
   flex-basis: auto;
   margin-right: 50px;
 }
-@media (min-width:320px)  { 
-
- }
 
 .main-menu .menu .menu-nav {
   margin: -2px auto 0 auto;
