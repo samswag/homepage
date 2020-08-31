@@ -18,13 +18,6 @@ Table of Content
 (function ($) {
     "use strict";
 
-    /* -----------------------------------
-             Preloader
-    ----------------------------------- */
-    function loading() {
-        "use strict";
-        $('.loading').delay(500).fadeOut(500);
-    }
 
     /* -----------------------------------
                 Menu
