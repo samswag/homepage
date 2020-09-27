@@ -1120,9 +1120,9 @@ ul {
   .menu-toggle {
     display: block;
   }
-  .fab{
-    margin-left: 22px;
-  }
+  .twit{
+    margin-left: 56px;
+  } 
   
 }
 
@@ -1143,7 +1143,7 @@ ul {
   }
   .home {
     padding: 0;
-    background-position: unset !important;
+    background-position: center !important;
   }
   .home .banner h1.cd-headline {
     font-size: 32px;
